@@ -4,6 +4,12 @@ A full-stack flight status lookup application built with a .NET 8 Minimal API ba
 
 Runs fully offline with no external API dependencies — stub providers return deterministic hardcoded data.
 
+## Screenshots
+
+| Landing Page | Loading State | Flight Result |
+|:---:|:---:|:---:|
+| ![Landing](screenshots/01-landing-page.png) | ![Loading](screenshots/02-loading-state.png) | ![Result](screenshots/03-flight-result.png) |
+
 ## Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
