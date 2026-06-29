@@ -1,0 +1,46 @@
+/* Global styles and CSS custom properties */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --color-ontime: #10b981;
+  --color-ontime-bg: #ecfdf5;
+  --color-ontime-border: #a7f3d0;
+  --color-delayed: #f59e0b;
+  --color-delayed-bg: #fffbeb;
+  --color-delayed-border: #fde68a;
+  --color-cancelled: #ef4444;
+  --color-cancelled-bg: #fef2f2;
+  --color-cancelled-border: #fecaca;
+  --color-diverted: #8b5cf6;
+  --color-diverted-bg: #f5f3ff;
+  --color-diverted-border: #ddd6fe;
+  --color-unknown: #6b7280;
+  --color-unknown-bg: #f9fafb;
+  --color-unknown-border: #e5e7eb;
+
+  --gradient-primary: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0ea5e9 100%);
+  --gradient-accent: linear-gradient(135deg, #0ea5e9, #6366f1);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  color: #1e293b;
+  background-color: #f8fafc;
+}
